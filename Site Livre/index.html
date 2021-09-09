@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HBO</title>
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <img id="ft" src="./imagens/menu 2.png"/>
+        </div>
+        <div id="titulo">
+            <h1>HBO</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#series">Séries</a></li>
+                <li><a href="#historicos">Hitóricos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="inicio">Inicio</h2>
+        <section>
+
+        </section>
+        <h2 id="filmes">Filmes</h2>
+        <section class="filmes">
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/batman.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Btaman o Cavleiro das Trevas</h3>
+                    <p>2011</p>
+                </div>
+            </div>  
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/joker.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Coringa</h3>
+                    <p>2019</p>
+                </div>
+            </div>
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/judas.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Judas  e o Messias Negro</h3>
+                    <p>2020</p>
+                </div>
+            </div>
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/tenet.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Tenet</h3>
+                    <p>2021</p>
+                </div>
+            </div>
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/space.png"/>
+                </div>
+                <div id="legenda">
+                    <h3>Space Jam</h3>
+                    <p>2021</p>
+                </div>
+            </div>
+            
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/love.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Lovecountry</h3>
+                    <p>2019</p>
+                </div>
+            </div>
+        </section>
+        <h2 id="series">Séries</h2>
+        <section class="series">
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/suc.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Sucession</h3>
+                    <p>2020</p>
+                </div>
+            </div>
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/rick and morty.png"/>
+                </div>
+                <div id="legenda">
+                    <h3>Rick and Morty</h3>
+                    <p>2021 </p>
+                </div>
+            </div>
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/got.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Game of Thores</h3>
+                    <p>2020</p>
+                </div>
+            </div>
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/perry.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Perry Mason</h3>
+                    <p>2017</p>
+                </div>
+            </div>
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/eupho.jpg" />
+                </div>
+                <div id="legenda">
+                    <h3>Euphoria</h3>
+                    <p>2019</p>
+                </div>
+            </div>
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/barry.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Barry</h3>
+                    <p>2019</p>
+                </div>
+            </div>
+        </section>
+        <h2 id="historico">Histórico</h2>
+        <section class="historico">
+            <div id="item">
+                <div id="imagens">
+                    <img src="./imagens/sui.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Esquadrão Suicida 2</h3>
+                    <p>2021</p>
+                </div>
+            </div><div id="item">
+                <div id="imagens">
+                    <img src="./imagens/harry.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Harry Potter</h3>
+                    <p>2005</p>
+                </div>
+            </div><div id="item">
+                <div id="imagens">
+                    <img src="./imagens/zack.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Liga da Justiça</h3>
+                    <p>2020</p>
+                </div>
+            </div><div id="item">
+                <div id="imagens">
+                    <img src="./imagens/aqua.jpg"/>
+                </div>
+                <div id="legenda">
+                    <h3>Aquamen</h3>
+                    <p>2019</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="rodapé">
+            <strong>
+                Escola Técnica Monteiro Lobato
+            </strong>
+        </p>
+    </footer>
+    <script>
+        let nav=document.querySelector("nav");
+        let icon= document.querySelector("#menu");
+
+    icon.onclick=function(){
+        if(nav.style.display=="none")
+            nav.style.display="block"
+        else
+            nav.style.display="none"
+    }
+    </script>
+</body>
+</html>
